@@ -1,8 +1,8 @@
 # Data Quality Checks in Python
 
-A focused, dependency-light data quality validation suite built with Pandas. Runs a battery of column-level checks against a target dataset and reports what passed, what failed, and where the defects are.
+A focused, dependency-light data quality validation suite built on Python. Runs a battery of column-level checks against a target dataset and reports what passed, what failed, and where the defects are.
 
-This is the first published module in a larger ETL validation toolkit I'm building incrementally as I deepen my Python skills. Patterns reflect ETL/BI test work I've done on enterprise programs for U.S. clients including the World Bank, TIAA. 
+This is the first published module in a larger ETL validation toolkit I'm building incrementally as I deepen my Python skills. Patterns reflect ETL/BI test work I've done on enterprise programs for U.S. clients including the World Bank Group, Teachers Insurance and Annuity Association of America. 
 
 ## What this checks
 
