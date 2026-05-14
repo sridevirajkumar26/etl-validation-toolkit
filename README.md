@@ -2,7 +2,7 @@
 
 A focused, dependency-light data quality validation suite built with Pandas. Runs a battery of column-level checks against a target dataset and reports what passed, what failed, and where the defects are.
 
-This is the first published module in a larger ETL validation toolkit I'm building incrementally as I deepen my Python skills. Patterns reflect ETL/BI test work I've done on enterprise programs for U.S. clients including the World Bank, TIAA, Equinix, and Travelers.
+This is the first published module in a larger ETL validation toolkit I'm building incrementally as I deepen my Python skills. Patterns reflect ETL/BI test work I've done on enterprise programs for U.S. clients including the World Bank, TIAA. 
 
 ## What this checks
 
@@ -20,8 +20,7 @@ Each function is one self-contained data quality check. The suite covers the val
 
 ## Quick start
 
-```bash
-pip install pandas numpy
+```
 python scripts/00_generate_sample_data.py
 python scripts/02_data_quality_checks.py
 ```
