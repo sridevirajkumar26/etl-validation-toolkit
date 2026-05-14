@@ -84,8 +84,6 @@ This repo currently focuses on column-level data quality validation. I'm extendi
 - Memory-efficient chunked validation for 5M+ row datasets using streaming statistics
 - BI dashboard reconciliation against database ground truth
 - A Great Expectations port of the checks
-- A pytest harness so each check fails CI on data quality regression
-- Snowflake / BigQuery connector layer (currently uses CSV fixtures)
 
 Feedback and pull requests welcome.
 
