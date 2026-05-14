@@ -1,0 +1,89 @@
+{
+  "captured_at": "2026-05-13T15:34:31.110048",
+  "row_count": 100000,
+  "column_count": 8,
+  "columns": {
+    "trade_id": {
+      "dtype": "int64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "distinct_count": 100000,
+      "min": 1000000.0,
+      "max": 1099999.0,
+      "mean": 1049999.5,
+      "std": 28867.65779668774
+    },
+    "trade_date": {
+      "dtype": "datetime64[ns]",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "distinct_count": 365
+    },
+    "instrument_type": {
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "distinct_count": 5,
+      "top_values": {
+        "BOND": 29919,
+        "EQUITY": 25020,
+        "FX_SWAP": 20089,
+        "IR_SWAP": 14927,
+        "LOAN": 10045
+      }
+    },
+    "currency_code": {
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "distinct_count": 5,
+      "top_values": {
+        "USD": 49947,
+        "EUR": 20022,
+        "GBP": 14926,
+        "JPY": 10082,
+        "CAD": 5023
+      }
+    },
+    "notional_amount": {
+      "dtype": "float64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "distinct_count": 99895,
+      "min": 195.49,
+      "max": 157750903.52,
+      "mean": 499579.866096,
+      "std": 1555385.112489872
+    },
+    "counterparty_id": {
+      "dtype": "int64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "distinct_count": 1999,
+      "min": 1.0,
+      "max": 1999.0,
+      "mean": 1000.28103,
+      "std": 578.5958317889135
+    },
+    "trade_status": {
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "distinct_count": 3,
+      "top_values": {
+        "SETTLED": 84931,
+        "PENDING": 12026,
+        "CANCELLED": 3043
+      }
+    },
+    "source_system": {
+      "dtype": "object",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "distinct_count": 1,
+      "top_values": {
+        "TRADE_CAPTURE_V1": 100000
+      }
+    }
+  }
+}
